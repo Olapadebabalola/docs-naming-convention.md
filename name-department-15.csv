@@ -1,0 +1,16 @@
+﻿Name,Department,Job title,Manager,Groups,Contract end date,Usage location
+Evelyn Carter,Executive,Owner / CEO,—,SEC-Dept-Executive,N/A,US
+Marcus Trent,IT,IT Manager,Evelyn Carter,SEC-Dept-IT,N/A,US
+Sofia Delgado,IT,Systems Administrator,Marcus Trent,SEC-Dept-IT,N/A,US
+Ryan Patel,IT,Help Desk Technician,Marcus Trent,"SEC-Dept-IT, SEC-Role-Helpdesk",N/A,US
+Linda Marlowe,Finance,Finance Manager,Evelyn Carter,SEC-Dept-Finance,N/A,US
+Jacob Nguyen,Finance,Payroll Specialist,Linda Marlowe,SEC-Dept-Finance,N/A,US
+Tara Simmons,Finance,Invoicing Specialist,Linda Marlowe,SEC-Dept-Finance,N/A,US
+Daniel Brooks,Sales,Sales Director,Evelyn Carter,SEC-Dept-Sales,N/A,US
+Chloe Ramirez,Sales,Senior Sales Representative,Daniel Brooks,SEC-Dept-Sales,N/A,US
+Omar Bennett,Sales,Sales Representative,Daniel Brooks,SEC-Dept-Sales,N/A,US
+Nina Foster,Sales,Sales Representative,Daniel Brooks,SEC-Dept-Sales,N/A,US
+Hannah Cole,HR,HR Manager,Evelyn Carter,SEC-Dept-HR,N/A,US
+Priya Shah,HR,HR Specialist (Onboarding/Offboarding),Hannah Cole,SEC-Dept-HR,N/A,US
+Leo Martins,Contractors,Field Technician (Contract),Marcus Trent,SEC-Type-Contractor,2027-06-30,US
+Maya Ortiz,Contractors,Data Entry Contractor,Linda Marlowe,SEC-Type-Contractor,2027-03-31,US
