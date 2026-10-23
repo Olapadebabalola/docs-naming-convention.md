@@ -17,9 +17,7 @@ The directory also contains my administrator account. It is separate from the No
 
 ## Why use groups?
 
-Groups make it easier to organize people and manage access. For example, if five Sales users need access to four applications, assigning access through the Sales group would take four group-to-application assignments. Assigning each person separately would take 20 assignments.
-
-This is a comparison only. I did not assign applications to the groups in Entra ID.
+Groups make it easier to organize people and manage access. For this example, assume five Sales users need four hypothetical apps: Northwind CRM, Northwind Expenses, the Sales Proposal Library, and the Sales Dashboard. Connecting the Sales group to those apps would mean four group-to-app assignments; assigning each person separately would mean 20 assignments. This comparison is hypothetical; I did not assign apps in Entra ID..
 
 ## Evidence and documentation
 
