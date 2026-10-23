@@ -1,4 +1,7 @@
 # Northwind Services: Entra ID User and Group Lab
+## Project summary
+
+I created 16 fictional Northwind staff and contractor accounts in Microsoft Entra ID, plus my separate administrator account. I organized the Northwind users into department security groups and created a Helpdesk role group. I kept contractors in their own group, added Alex Morgan to the Sales group, and set Daniel Brooks as Alex’s manager. I verified that the directory shows 17 accounts and the Sales group has 5 members. I also saved screenshots of user and group audit logs in this repository. The four-app example above is hypothetical; I did not assign applications in Entra ID.
 
 ## Project overview
 
