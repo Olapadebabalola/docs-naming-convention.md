@@ -9,7 +9,7 @@ This project documents a Microsoft Entra ID lab for a fictional company, Northwi
 
 ## What I built
 
-- Created 15 initial Northwind staff and contractor accounts, then added Alex Morgan as an additional Sales user.
+- Created 16 initial Northwind staff and contractor accounts, then added Alex Morgan as an additional Sales user.
 - Created department security groups named `SEC-Dept-<Department>` for Executive, IT, Finance, Sales, HR, and Contractors.
 - Created `SEC-Role-Helpdesk` for the help desk function.
 - Added users to the groups that match their department or role.
