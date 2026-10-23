@@ -1,0 +1,39 @@
+# Northwind Services: Entra ID User and Group Lab
+
+## Project overview
+
+This project documents a Microsoft Entra ID lab for a fictional company, Northwind Services. I created user accounts, organized users into assigned security groups, and captured audit log evidence.
+
+## What I built
+
+- Created 15 initial Northwind staff and contractor accounts, then added Alex Morgan as an additional Sales user.
+- Created department security groups named `SEC-Dept-<Department>` for Executive, IT, Finance, Sales, HR, and Contractors.
+- Created `SEC-Role-Helpdesk` for the help desk function.
+- Added users to the groups that match their department or role.
+- Set Alex Morgan’s manager to Daniel Brooks and added Alex to `SEC-Dept-Sales`.
+- Captured screenshots of user and group audit logs.
+
+The directory also contains my administrator account. It is separate from the Northwind staff and contractor accounts.
+
+## Why use groups?
+
+Groups make it easier to organize people and manage access. For example, if five Sales users need access to four applications, assigning access through the Sales group would take four group-to-application assignments. Assigning each person separately would take 20 assignments.
+
+This is a comparison only. I did not assign applications to the groups in Entra ID.
+
+## Evidence and documentation
+
+- [Group and naming design](docs/org-design.md)
+- [Naming conventions](docs/naming-convention.md)
+- User and group audit log screenshots are in the `screenshots/` folder.
+
+## What I learned
+
+- Creating a group does not automatically add people to it; membership must be assigned.
+- Manager information is set on a user account separately from group membership.
+- Audit logs can show successful directory changes.
+- Checking the Users list and group membership helped me verify the results.
+
+## Future improvements
+
+For a larger organization, I would consider dynamic groups, scheduled access reviews, and a managed process for removing contractors when their contracts end. These were not configured in this lab.
