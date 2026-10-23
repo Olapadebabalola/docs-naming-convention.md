@@ -2,7 +2,7 @@
 
 ## Design overview
 
-Northwind has 15 staff and contractors across Executive, IT, Finance, Sales, HR, and Contractors. I used assigned security groups named `SEC-Dept-<Department>` for those departments, plus `SEC-Role-Helpdesk` for the help desk function. Department groups provide a stable way to organize people and can be used as a starting point for access decisions. Role groups represent work that can cross department boundaries. Membership is assigned manually in this lab; no applications have been assigned to these groups.
+Northwind has 16 staff and contractors across Executive, IT, Finance, Sales, HR, and Contractors. I used assigned security groups named `SEC-Dept-<Department>` for those departments, plus `SEC-Role-Helpdesk` for the help desk function. Department groups provide a stable way to organize people and can be used as a starting point for access decisions. Role groups represent work that can cross department boundaries. Membership is assigned manually in this lab; no applications have been assigned to these groups.
 
 | Group | Purpose |
 | --- | --- |
